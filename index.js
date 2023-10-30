@@ -1,6 +1,6 @@
-let container = document.getElementById("container");
 // Genero numeri da 1 a 100
 for(let i=1; i<=100; i++){
+    let container = document.getElementById("container");
     // Verifico che il numero sia un multiplo sia di 3 sia di 5
     if((i%3 == 0) && (i%5 == 0)){
         container.innerHTML = container.innerHTML + `<div class="celle"><div class="bacColRed"><div class="numeri">fizzbuzz</div></div></div>`;
